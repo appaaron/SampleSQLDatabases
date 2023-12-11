@@ -22,8 +22,9 @@ This script has been tested and build on against:
 
 ## Instructions to run build in SQL Server Management Studio:
 
-1. Change the database context name to match the deployment database name for deployment. 
-2. Click **Query** -> **Specify Values for Template Parameters**
-3. In the Values column for the **pathtorootfolder** parameter, type in the path to the root folder for the local repo without trailing backslash (e.g. C:\Repo\Dw2022). Click **OK**.
-4. Click **Query** -> **SQLCMD** mode.
-5. Execute the build script.
+1. Unzip AdventureWorks2022OLTP.zip to a local directory
+2. Change the database context name to match the deployment database name for deployment.3
+3. Click Query -> Specify Values for Template Parameters
+4. In the Values column for the pathtorootfolder parameter, type in the path to the root folder for the local repo without trailing backslash (e.g. C:\Repo\Dw2022). Click OK.
+5. Click Query -> SQLCMD mode.
+6. Execute the build script.
